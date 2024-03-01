@@ -11871,18 +11871,18 @@ a {
   text-decoration: none;
 }
 
-#p1, #p2 {
-  color: #005430;
-  font-weight: bold;
-}
-
 .soical {
-  font-size: 25px !important;
+  font-size: 20px !important;
   color: #005430;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .soical a {
   color: #005430;
-  padding-right: 20px;
+  transition: all 0.5s ease;
+}
+.soical a:hover {
+  color: #0083AF;
 }
 
 .navbar-toggler {
@@ -11904,5 +11904,27 @@ a {
 }
 .navbar .fa-bars {
   font-size: 30px;
+  color: #eee;
+}
+
+.offcanvas-body .navbar-nav {
+  padding: 0 !important;
+}
+.offcanvas-body .navbar-nav a {
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+  padding-right: 10px !important;
+  transition: all 0.3s ease !important;
+}
+.offcanvas-body .navbar-nav a:hover {
+  background-color: #005430;
+  color: #eee !important;
+}
+.offcanvas-body .navbar-nav a .purple {
+  color: #005430;
+  transition: all 0.3s ease !important;
+  margin-left: 15px;
+}
+.offcanvas-body .navbar-nav a:hover .purple {
   color: #eee;
 }
