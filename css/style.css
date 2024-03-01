@@ -11924,6 +11924,8 @@ a {
   color: #005430;
   transition: all 0.3s ease !important;
   margin-left: 15px;
+  width: 25px;
+  height: 25px;
 }
 .offcanvas-body .navbar-nav a:hover .purple {
   color: #eee;
