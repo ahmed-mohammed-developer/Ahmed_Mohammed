@@ -679,13 +679,13 @@ eval("// Copyright Joyent, Inc. and other Node contributors.\n//\n// Permission 
 
 /***/ }),
 
-/***/ "./node_modules/jquery/dist/jquery-exposed.js":
+/***/ "./node_modules/jquery/dist/jquery.js?b90c":
 /*!****************************************************!*\
   !*** ./node_modules/jquery/dist/jquery-exposed.js ***!
   \****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var ___EXPOSE_LOADER_IMPORT___ = __webpack_require__(/*! -!./jquery.js */ \"./node_modules/jquery/dist/jquery.js\");\nvar ___EXPOSE_LOADER_GET_GLOBAL_THIS___ = __webpack_require__(/*! ../../expose-loader/dist/runtime/getGlobalThis.js */ \"./node_modules/expose-loader/dist/runtime/getGlobalThis.js\");\nvar ___EXPOSE_LOADER_GLOBAL_THIS___ = ___EXPOSE_LOADER_GET_GLOBAL_THIS___;\nif (typeof ___EXPOSE_LOADER_GLOBAL_THIS___[\"$\"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___[\"$\"] = ___EXPOSE_LOADER_IMPORT___;\nelse throw new Error('[exposes-loader] The \"$\" value exists in the global scope, it may not be safe to overwrite it, use the \"override\" option')\nif (typeof ___EXPOSE_LOADER_GLOBAL_THIS___[\"jQuery\"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___[\"jQuery\"] = ___EXPOSE_LOADER_IMPORT___;\nelse throw new Error('[exposes-loader] The \"jQuery\" value exists in the global scope, it may not be safe to overwrite it, use the \"override\" option')\nmodule.exports = ___EXPOSE_LOADER_IMPORT___;\n\n\n//# sourceURL=webpack://company-website-main/./node_modules/jquery/dist/jquery-exposed.js?");
+eval("var ___EXPOSE_LOADER_IMPORT___ = __webpack_require__(/*! -!./jquery.js */ \"./node_modules/jquery/dist/jquery.js?1157\");\nvar ___EXPOSE_LOADER_GET_GLOBAL_THIS___ = __webpack_require__(/*! ../../expose-loader/dist/runtime/getGlobalThis.js */ \"./node_modules/expose-loader/dist/runtime/getGlobalThis.js\");\nvar ___EXPOSE_LOADER_GLOBAL_THIS___ = ___EXPOSE_LOADER_GET_GLOBAL_THIS___;\nif (typeof ___EXPOSE_LOADER_GLOBAL_THIS___[\"$\"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___[\"$\"] = ___EXPOSE_LOADER_IMPORT___;\nelse throw new Error('[exposes-loader] The \"$\" value exists in the global scope, it may not be safe to overwrite it, use the \"override\" option')\nif (typeof ___EXPOSE_LOADER_GLOBAL_THIS___[\"jQuery\"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___[\"jQuery\"] = ___EXPOSE_LOADER_IMPORT___;\nelse throw new Error('[exposes-loader] The \"jQuery\" value exists in the global scope, it may not be safe to overwrite it, use the \"override\" option')\nmodule.exports = ___EXPOSE_LOADER_IMPORT___;\n\n\n//# sourceURL=webpack://company-website-main/./node_modules/jquery/dist/jquery.js?");
 
 /***/ }),
 
@@ -744,7 +744,7 @@ eval("Object.defineProperty(exports, \"__esModule\", ({value:true}));exports.fro
 
 /***/ }),
 
-/***/ "./node_modules/jquery/dist/jquery.js":
+/***/ "./node_modules/jquery/dist/jquery.js?1157":
 /*!********************************************!*\
   !*** ./node_modules/jquery/dist/jquery.js ***!
   \********************************************/
@@ -783,7 +783,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1709335490340\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://company-website-main/./src/sass/style.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1709365185697\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://company-website-main/./src/sass/style.scss?");
 
 /***/ }),
 
@@ -1009,7 +1009,7 @@ eval("/** @typedef {\"info\" | \"warning\" | \"error\"} LogLevel */\n\n/** @type
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var jquery_dist_jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery/dist/jquery */ \"./node_modules/jquery/dist/jquery-exposed.js\");\n/* harmony import */ var jquery_dist_jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery_dist_jquery__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\");\n/* harmony import */ var _fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://company-website-main/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var jquery_dist_jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery/dist/jquery */ \"./node_modules/jquery/dist/jquery.js?b90c\");\n/* harmony import */ var jquery_dist_jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery_dist_jquery__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\");\n/* harmony import */ var _fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_js_all__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n\n\nconst date = new Date();\nconst year = date.getFullYear();\ndocument.getElementById(\"date\").innerHTML = ` ${year}`\n\n//# sourceURL=webpack://company-website-main/./src/js/index.js?");
 
 /***/ })
 
@@ -1101,7 +1101,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var boot
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("859b1292f6ae4e55ef31")
+/******/ 		__webpack_require__.h = () => ("48cb9ecb55689e4c99a3")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
