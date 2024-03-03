@@ -11866,7 +11866,7 @@ textarea.form-control-lg {
   background-color: #fff;
   border-radius: 0.3125rem;
   padding: 3rem 0 2.5rem;
-  box-shadow: 0px 0px 2px 2px #005430;
+  box-shadow: 0 1px 8px #005430;
   transition: all 0.5s;
 }
 .main-services .baner-menu:hover {
@@ -11903,6 +11903,62 @@ textarea.form-control-lg {
   font-weight: bold;
   color: #005430;
   text-shadow: 1px 1px #fff;
+}
+
+.main-templat {
+  padding-top: 25px;
+}
+.main-templat .box {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+.main-templat .box img {
+  max-width: 100% !important;
+  height: 100% !important;
+}
+.main-templat .box .box-text {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+}
+.main-templat .box .box-text .card-body {
+  padding-bottom: 10px;
+}
+.main-templat .box .box-text .card-text {
+  margin-bottom: 10px;
+  color: #005430;
+}
+.main-templat .box .box-text .list-inline {
+  padding: 0;
+}
+.main-templat .box .box-text .list-inline .list-inline-item {
+  margin: 0;
+  padding-left: 8px;
+}
+.main-templat .box .box-text .list-inline .list-inline-item .fa-brands {
+  width: 50px;
+  height: 50px;
+}
+.main-templat .box .box-text .card-body-2 {
+  padding: 0 16px 16px 16px;
+}
+.main-templat .box .box-text .card-body-2 .view {
+  margin-left: 10px;
+}
+.main-templat .box .box-text .card-body-2 .btn-outline-success {
+  color: #005430;
+  border-color: #005430;
+}
+.main-templat .box .box-text .card-body-2 .btn-outline-success:hover {
+  color: #fff;
+  background-color: #005430;
+}
+.main-templat .box .box-text .card-body-2 .btn-outline-success:hover a {
+  color: #fff !important;
+}
+.main-templat .box .box-text .card-body-2 .btn-outline-success a {
+  text-decoration: none !important;
+  color: #005430 !important;
 }
 
 @font-face {
