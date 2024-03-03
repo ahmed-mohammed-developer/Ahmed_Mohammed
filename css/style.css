@@ -11858,6 +11858,53 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.main-services {
+  padding-top: 25px;
+}
+.main-services .baner-menu {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0.3125rem;
+  padding: 3rem 0 2.5rem;
+  box-shadow: 0px 0px 2px 2px #005430;
+  transition: all 0.5s;
+}
+.main-services .baner-menu:hover {
+  opacity: 0.5;
+}
+.main-services .baner-menu .baner-img {
+  margin-bottom: 0.625rem !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+.main-services .baner-menu .baner-img img {
+  max-width: 182px;
+  height: 182px;
+}
+.main-services .baner-menu h3, .main-services .baner-menu .h3 {
+  font-size: 1.75rem;
+  color: #005430;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.main-services .baner-menu .btn-outline-success {
+  width: 10rem;
+  margin-top: 20px;
+  background-color: #005430 !important;
+}
+.main-services .baner-menu .btn-outline-success a {
+  color: #eee !important;
+}
+
+.title {
+  text-align: center;
+}
+.title h2, .title .h2 {
+  font-weight: bold;
+  color: #005430;
+  text-shadow: 1px 1px #fff;
+}
+
 @font-face {
   font-family: cairo;
   src: url(../fonts/Cairo-Regular.ttf);
