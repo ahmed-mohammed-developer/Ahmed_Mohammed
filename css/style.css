@@ -11858,6 +11858,39 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.myBook {
+  padding-top: 25px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.myBook h1, .myBook .h1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+}
+.myBook img {
+  max-height: 361px;
+  max-width: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.myBook .content-book {
+  margin-top: 50px;
+}
+.myBook .content-book h3, .myBook .content-book .h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.myBook .content-book p {
+  margin-bottom: 5px;
+  line-height: 25px;
+}
+
+@media (max-width: 989px) {
+  .myBook .content-book {
+    margin-top: 5px !important;
+  }
+}
 .main-services {
   padding-top: 25px;
 }
