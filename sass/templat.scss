@@ -1,0 +1,54 @@
+@import "./varible";
+
+.main-templat {
+     padding-top: 25px;
+    .box {
+    box-shadow: 0 1px 8px rgba(0,0,0,.1);
+          img {
+               max-width: 100% !important;
+               height: 100% !important;
+          }
+    .box-text {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    .card-body{
+     padding-bottom: 10px;
+    }
+    .card-text {
+     margin-bottom: 10px;
+     color: $main-color;
+    }
+    .list-inline {
+     padding: 0;
+     .list-inline-item{
+          margin: 0;
+          padding-left: 8px;
+     }
+    }
+    .card-body-2 {
+     padding: 0 16px 16px 16px;
+     .view {
+          margin-left: 10px;
+     }
+     .btn-outline-success {
+          color: $main-color;
+          border-color: $main-color;
+          &:hover {
+               color: #fff;
+               background-color: $main-color;
+               a {
+                    color: #fff !important;
+               }
+          }
+          a {
+               text-decoration: none !important;
+               color: $main-color !important;
+          }
+
+     }
+    }
+    }
+}
+}

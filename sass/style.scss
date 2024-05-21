@@ -1,0 +1,141 @@
+@import "./books.scss";
+@import "./blog.scss";
+@import "./varible";
+@import "./services.scss";
+@import "./templat.scss";
+
+
+
+@font-face {
+     font-family: cairo;
+     src: url(../fonts/Cairo-Regular.ttf);
+}
+body {
+     font-family: "cairo", 'Courier New', Courier, monospace;
+     background-color: $Sixth-color;
+}
+a {
+     text-decoration: none ;
+}
+.top-nav {
+     border-bottom: 2px solid $main-color;
+     .soical {
+          font-size: 20px !important;
+          color: $main-color;
+          margin: 0 !important;
+          padding: 0 !important;
+          a {
+               color: $main-color;
+               transition: all 0.5s ease;
+               &:hover{
+                    color: $Sconed-color;
+               }
+          }
+     }
+}
+
+ .navbar-toggler {
+     border: none !important;
+     border-radius: none !important;
+     outline: none !important;
+ }
+ .navbar-toggler:focus,
+ .navbar-toggler:hover {
+     border: none !important;
+     border-radius: none !important;
+     outline: none !important;
+     box-shadow: none !important;
+ }
+.navbar {
+     background-color: $main-color !important;
+     .fa-bars{
+               font-size: 30px;
+               color: $Sixth-color;
+     }
+}
+.offcanvas-body{
+     .navbar-nav {
+               padding: 0 !important;
+               a {
+               border-bottom: 1px solid #eee;
+               font-size: 18px;
+               padding-right: 10px !important;
+               transition: all 0.3s ease !important;
+               &:hover {
+                    background-color: $main-color;
+                    color: $Sixth-color !important;
+               }
+                    .purple {
+                         color: $main-color;
+                         transition: all 0.3s ease !important;
+                         margin-left: 15px;
+                         width: 25px;
+                         height: 25px;
+                    }
+                    &:hover .purple {
+                         color: $Sixth-color;
+                    }
+          }
+     }
+}
+.main {
+     padding-top: 50px;
+     .baner-menu {
+          text-align: center;
+          background-color: $main-color;
+          border-radius: 0.3125rem;
+          padding: 3rem 0 2.5rem;
+          transition: all .5s;
+          &:hover {
+               opacity: .5;
+          }
+               .baner-img {
+                    margin-bottom: 0.625rem !important;
+                    padding-left: 8px !important;
+                    padding-right: 8px !important;
+                    img {
+                         max-width: 202px;
+                         height: 202px;
+                    }
+               }
+               h3 {
+                    font-size: 1.75rem;
+                    color: $Sixth-color;
+                    font-weight: 500;
+               }
+}
+}
+.down-nav {
+     border-top: 2px solid $main-color;
+     .soical {
+          font-size: 20px !important;
+          color: $main-color;
+          margin: 0 !important;
+          padding: 0 !important;
+          a {
+               color: $main-color;
+               transition: all 0.5s ease;
+               &:hover{
+                    color: $Sconed-color;
+               }
+          }
+     }
+}
+footer{
+     max-height: 50px;
+     color: $Sixth-color;
+     background-color: $main-color;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     h5 {
+          font-size: 16px;
+     }
+}
+@media (max-width: 500px) {
+     footer {
+          h5 {
+               font-size: 10px;
+          }
+     }
+}
